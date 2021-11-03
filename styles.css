@@ -1,0 +1,409 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'Reey-Regular';
+    src:url('Reey-Regular.ttf.woff') format('woff'),
+        url('Reey-Regular.ttf.svg#Reey-Regular') format('svg'),
+        url('Reey-Regular.ttf.eot'),
+        url('Reey-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    background-image:url("image/header-background.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+nav ul{
+    float:right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 10px;
+
+    
+    
+    
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    color: whitesmoke;
+    
+   
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav #barre{
+    display: inline-block;
+    
+}
+#barre{
+    border-radius: 100px;
+    outline: none;
+    height: 35px;
+    
+}
+header h2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 90px;
+    padding-left: 110px;
+    padding-bottom: 50px;
+    padding-top: 22px;
+    font-family: 'Reey-Regular';
+}
+.logo{
+    width: 200px;
+    padding-left: 110px;
+    padding-top: 150px;
+}
+.nomnormal h3{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    padding-bottom: 100px;
+}
+.nomnormal button a{
+    padding-left:25px ;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.nomnormal button{
+    border-radius: 100px;
+    height: 35px;
+}
+.nomnormal{
+    text-align: left;
+    width: 40%;
+    margin-left: 50px;
+    
+}
+.nomnormal p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+}
+#image2{
+    width: 800px;
+    position: absolute;
+    right: 10px;
+    top: 230px;
+}
+#image3{
+    position:absolute;
+    right:30px;
+    bottom: -415px;
+    width: 680px;
+    
+}
+#image1{
+    position: relative;
+    left: 820px;
+    
+}
+.parti1 h2{
+    text-align: center;
+    font-family: 'Reey-Regular';
+    font-size: 45px;
+    padding-top: 50px
+
+}
+.parti1 p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+
+}
+.plat img{
+    width: 100%;
+}
+.plat{
+    float: left;
+    width: calc(100%/3);
+    padding: 55px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.centrebouton{
+    text-align: center;
+    clear: both;
+}
+#pac{
+    padding: 15px;
+    width: 170px;
+    border-radius: 100px;
+    background-color: #27292c;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#pac a {
+    color: white;
+    text-decoration: none;
+}
+.interarticle {
+    text-align: center;
+}
+   
+.interarticle {
+    background-color: #27292c;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.interarticle h2{
+    font-family: 'Reey-Regular';
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: white;
+}
+.interarticle p{
+    color: white;
+    padding-bottom: 40px;
+}
+
+.interarticle button{
+    padding: 10px;
+    border-radius: 30px;
+    width: 170px;
+}
+
+.interarticle button a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.interarticle #texte1{
+    float: left;
+    width: 47%;
+    box-sizing: border-box;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+.interarticle #texte2{
+    float: right;
+    width: 47%;
+    box-sizing: border-box;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+.clearbutt{
+    clear: both;
+    text-align:center;
+    
+}
+.Discount50 img{
+     width: 45%;
+     margin: 25px;
+}
+.Discount50 h4{
+    position: absolute;
+    right: 51px;
+    top: 2980px;
+    width: 45%;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.Discount50 p{
+    position: absolute;
+    right: 225px;
+    top: 3015px;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family:'Montserrat', sans-serif;
+}
+#buttondiscount50 {
+    position: absolute;
+    right: 600px;
+    top: 3120px;
+    
+
+}
+#buttondiscount50 button {
+    background-color: #27292c;
+    padding-right: 40px;
+    padding-left: 40px;
+    height: 45px;
+    border-radius: 100px;
+
+}
+#buttondiscount50 a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.Discount2for1 img{
+    width: 45%;
+    float: right;
+    padding-bottom: 30px;
+    
+}
+.Discount2for1{
+    display: inline-block;
+    width: 100%;
+}
+#textediscount{
+    width: 45%;
+    position: relative;
+    bottom: -500px;
+    padding-left: 200px;
+}
+#textediscount button{
+position: relative;
+left: 300px;
+bottom: -50px;
+padding-right: 40px;
+padding-left: 40px;
+height: 45px;
+background-color: #27292c;
+border-radius: 100px;
+}
+#textediscount button a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+#textediscount p{
+    font-family:'Montserrat', sans-serif;
+    
+
+}
+#textediscount h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+#pizzafond{
+    background-image:url("image/header-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.pizza{
+    width: 50%;
+    position:relative;
+    left: 600px;
+    bottom: -241px;
+
+}
+.pizzapart{
+    width: 23%;
+    position: absolute;
+    right: 960px;
+    bottom: -5055;
+}
+#pizzafond h2{
+    color: white;
+    text-align: center;
+    font-family: 'Reey-Regular';
+    font-size: 45px;
+    padding-top: 200px;
+    
+
+}
+#pizzafond p{
+    color: white;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 80px;
+    font-family:'Montserrat', sans-serif;
+
+}
+.bd1{
+    width: 35%;
+    position: absolute;
+    right: 15px;
+    bottom: -4100;
+}
+.bg1{
+    width: 30%;
+    position: absolute;
+    left: 61px;
+    bottom: -4178;
+}
+hr{
+    height: 10px;
+    width: 8%;
+    background-color: white;
+    position: relative;
+    right: -875px;
+}
+
+footer{
+    display: inline-block;
+}
+#titrelaencore{
+    width: 30%;
+    float: left;
+    padding-top: 90px;
+}
+#titrelaencore p{
+    width: 70%;
+    padding-bottom: 50px;
+}
+#about{
+    float: left;
+    padding-right: 450px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+#service{
+    float: left;
+    padding-right: 100px;
+    padding-top: 90px;
+}
+#other{
+    float: right;
+    padding-right: 100px;
+    padding-top: 90px;
+}
+footer a{
+    text-decoration:  none;
+    color: black;
+}
+footer li{
+    list-style: none;
+}
+.blanc{
+    float: left;
+    width: calc(100%/3);
+    padding: 55px;
+    padding-top: 200px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.blanccentre{
+    text-align: center;
+    width: 100%;
+} 
+
+
+

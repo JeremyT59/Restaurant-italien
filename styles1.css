@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Reey-Regular';
+    src:url('Reey-Regular.ttf.woff') format('woff'),
+        url('Reey-Regular.ttf.svg#Reey-Regular') format('svg'),
+        url('Reey-Regular.ttf.eot'),
+        url('Reey-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+nav ul{
+    float:right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 10px;
+
+    
+    
+    
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    color: whitesmoke;
+    
+   
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav #barre{
+    display: inline-block;
+    
+}
+#barre{
+    border-radius: 100px;
+    outline: none;
+    height: 35px;
+    
+}
+header{
+    background-image:url("image/header-background.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.logo {
+    width: 10%;
+    padding-left: 50px;
+}
+footer{
+    display: inline-block;
+    background-image:url("image/header-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#titrelaencore{
+    width: 30%;
+    float: left;
+    padding-top: 90px;
+}
+#titrelaencore p{
+    width: 70%;
+    padding-bottom: 50px;
+    color: white;
+}
+#titrelaencore h5{
+    color: white;
+}
+#about{
+    float: left;
+    padding-right: 450px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+#service{
+    float: left;
+    padding-right: 100px;
+    padding-top: 90px;
+}
+#other{
+    float: right;
+    padding-right: 100px;
+    padding-top: 90px;
+}
+footer a{
+    text-decoration:  none;
+    color: white;
+}
+footer li{
+    list-style: none;
+}
+h4{
+    color: white;
+    font-size: 29px;
+    text-transform: uppercase;
+}
+
+.google{
+    width: 45%;
+    display: inline-block;
+}
+#Formulaire{
+    width: 100%;
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+#F2{
+    width: 45%;
+    display: inline-block;
+}
+fieldset{
+    width: 65%;
+    display: inline-block;
+    margin-left: 67px;
+}
+#tout{
+    margin: 10px;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#first{
+    margin: 15px;
+    
+}
+
+#emaile{
+margin: 15px;
+padding-left: 0px;
+}
+#Sujets{
+    margin: 15;
+}
+#Descriptionn label{
+    display: inline-block;
+    width: 19%;
+    margin-bottom: 20px;
+    vertical-align: 15px;
+    
+}
+#Descriptionn{
+    margin: 15px;
+}
+#rpg{
+    text-align: center;
+    margin: 15px;
+}
+#send{
+    text-align: center;
+    margin-top: 20;
+    margin-bottom: 20;
+}
+.Nommarge{
+    margin-right: 8px;
+}
+.prenommarge{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#first input{
+    padding-right: 10px;
+}
+#emaile input{
+    padding-right: 10px;
+}
+select{
+    padding-right: 23px;
+}
+#Sujets label{
+    margin-right: 5px;
+}
+label{
+    font-family: 'Open Sans', sans-serif;
+
+}
+button{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.google{
+    margin-left: 121px;
+}
+#emaile label{
+    margin-right: 2px;
+}
